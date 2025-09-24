@@ -17,23 +17,31 @@ attribuez lui des valeurs.`
 
 ## exo 2
 
+- Creer un fichier Product1.php
+
+- Créer la classe Product1 avec les mêmes propriétés que product sauf total.
+
+- Modifier la visibilité des propriétés et faites une encapsulation grâce à des getter et setter.
+
+- Finissez par instancier deux fois la classe et utilisez les méthodes précédemment créées pour modifier les valeurs de l’objet.
+
+## exo 3
+
 - Creer un fichier Product2.php
 
 - Créer la classe Product2 avec le même code que product1.
-
-- Ajouter les get et set mettre en priver les propriétés
 
 - Puis modifier votre classe Product2 en incluant une methode statique qui verifie que ni la quantité ni le prix est nulle avant de retourner le total.
 
 - Rajouter egalement une constante € pour l’utiliser dans la méthode calculeTotal.
 
-## exo 3
+## exo 4
 
 - Créez un Product3.php et sa classe (vous pouvez reprendre comme base le Product2)
 
 - ajouter un \_\_construct pour définir des le depart les valeurs des propriétés
 
-## exo 4
+## exo 5
 
 - Créez une classe Employe avec les propriétés suivantes : $nom, $poste, $salaire.
 
@@ -55,7 +63,7 @@ attribuez lui des valeurs.`
 
 - Affichez les détails de $employe1 et $employe2 en utilisant la méthode dans un echo;
 
-## exo 5
+## exo 6
 
 - Creer une classe abstract product4 qui reprends le contenue de de Product3 avec setter et getter et le construct
 
